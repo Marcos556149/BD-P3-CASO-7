@@ -18,4 +18,8 @@
                                       B= π nom (σ nom ≠ 'Keanu Reeves' Dirige ⨝ A)
                                       C= π nom (σ nom ≠ 'Keanu Reeves' Actua ⨝ A)
                                       Persona ⨝ (B ∪ C)
-8*) π nom (σ titulo='The Matrix' Actua) ∩ π nom (σ titulo='The Matrix Revolutions' Actua)                                      
+8*) π nom (σ titulo='The Matrix' Actua) ∩ π nom (σ titulo='The Matrix Revolutions' Actua)
+9*) A= π nom σ titulo ≠ 'The Matrix Revolutions' Actua
+    π nom Actua - A
+10*) π nom (Persona ⨝ (ρ nom ← seguidor Sigue))
+11*) π nom (Persona ⨝ (ρ nom ← seguidor (π seguidor σ seguido = 'George Martin' Sigue) ∩ (π seguidor σ seguido = 'Keanu Reeves' Sigue)))
